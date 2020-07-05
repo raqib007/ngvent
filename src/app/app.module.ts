@@ -11,6 +11,9 @@ import { ProductComponent } from './product/product.component';
 import {MaterialModule} from './core/material.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { ProductImageComponent } from './product-image/product-image.component';
+import { ProductDepartmentComponent } from './product-department/product-department.component';
+import { PriceDisplayComponent } from './price-display/price-display.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import {FlexLayoutModule} from '@angular/flex-layout';
     NavigationComponent,
     BreadcrumbComponent,
     ProductListComponent,
-    ProductComponent
+    ProductComponent,
+    ProductImageComponent,
+    ProductDepartmentComponent,
+    PriceDisplayComponent
   ],
   imports: [
     BrowserModule,

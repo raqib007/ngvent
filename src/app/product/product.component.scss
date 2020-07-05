@@ -1,0 +1,10 @@
+.content-padding{
+  margin-bottom: 10px;
+}
+::ng-deep .mat-card-image:first-child{
+  margin-top: 0px!important;
+}
+::ng-deep .mat-card-image{
+  width: calc(100% - 50px)!important;
+  margin: 0px!important;
+}

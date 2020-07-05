@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, HostBinding, Input, OnInit} from '@angular/core';
+import {Product} from "../models/product.model";
 
 @Component({
   selector: 'app-product',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
+
+  @Input() product: Product;
+  @HostBinding('attr.fxLayout') fxLayout = 'row';
 
   constructor() { }
 

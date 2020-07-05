@@ -1,1 +1,17 @@
-<p>product works!</p>
+<div>
+    <mat-card class="content-padding">
+      <mat-card-content>
+        <div fxFlex="30" fxFlex.sm="30" fxLayoutAlign="center center" >
+           <app-product-image [product]="product"></app-product-image>
+        </div>
+        <div fxFlex="50">
+           <div>{{product.name}}</div>
+           <div>SKU #{{product.sku}}</div>
+           <app-product-department [product]="product"></app-product-department>
+        </div>
+        <div fxFlex="20" fxFlex.md="20" fxFlex.sm="20" fxFlex.xs="20">
+           <app-price-display price="{{product.price}}"></app-price-display>
+        </div>
+      </mat-card-content>
+    </mat-card>
+</div>
