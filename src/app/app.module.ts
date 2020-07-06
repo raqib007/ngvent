@@ -15,7 +15,6 @@ import { ProductImageComponent } from './product-image/product-image.component';
 import { ProductDepartmentComponent } from './product-department/product-department.component';
 import { PriceDisplayComponent } from './price-display/price-display.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +26,6 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     ProductImageComponent,
     ProductDepartmentComponent,
     PriceDisplayComponent,
-    SidenavComponent,
   ],
   imports: [
     BrowserModule,
