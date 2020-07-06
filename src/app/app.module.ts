@@ -14,6 +14,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { ProductImageComponent } from './product-image/product-image.component';
 import { ProductDepartmentComponent } from './product-department/product-department.component';
 import { PriceDisplayComponent } from './price-display/price-display.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { PriceDisplayComponent } from './price-display/price-display.component';
     ProductComponent,
     ProductImageComponent,
     ProductDepartmentComponent,
-    PriceDisplayComponent
+    PriceDisplayComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { PriceDisplayComponent } from './price-display/price-display.component';
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
