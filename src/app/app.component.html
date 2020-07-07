@@ -26,7 +26,7 @@
       <div fxLayout="row">
         <div fxFlex="50" fxFlexOffset="25" fxFlex.md="50" fxFlexOffset.md="25" fxFlex.sm="100" fxFlexOffset.sm="0"
              fxFlex.xs="100" fxFlexOffset.xs="0">
-          <app-product-list [products]="products"></app-product-list>
+          <app-product-list [products]="products" (onProductSelected)="productWasSelected($event)"></app-product-list>
         </div>
       </div>
     </div>

@@ -9,6 +9,8 @@ import {Product} from "../models/product.model";
 export class ProductComponent implements OnInit {
 
   @Input() product: Product;
+  @Input() isSelected: boolean = false;
+
   @HostBinding('attr.fxLayout') fxLayout = 'row';
 
   constructor() { }

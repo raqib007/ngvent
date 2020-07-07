@@ -8,3 +8,11 @@
   width: calc(100% - 50px)!important;
   margin: 0px!important;
 }
+
+.mat-card-color{
+  border: 1px solid #ff4081;
+}
+
+.mat-card:hover{
+  cursor: pointer;
+}

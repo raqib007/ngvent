@@ -18,6 +18,6 @@ export class AppComponent {
   }
 
   productWasSelected(product: Product): void{
-    console.log(`Selected product ${product}`);
+    console.log(`Selected product ${product.name}`);
   }
 }

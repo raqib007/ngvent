@@ -1,5 +1,5 @@
-<div>
-    <mat-card class="content-padding">
+<div class="content-padding">
+    <mat-card [ngClass]="{'mat-card-color':isSelected}">
       <mat-card-content>
         <div fxFlex="20" fxFlex.sm="20" fxLayoutAlign="center" >
            <app-product-image [product]="product"></app-product-image>
